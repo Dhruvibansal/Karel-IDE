@@ -1,0 +1,42 @@
+function main(){
+Â Â Â beepersRight();
+Â Â Â goUpTurnLeft();
+Â Â Â beepersLeft();
+Â Â Â goUpTurnRight();
+Â Â Â Â Â Â beepersRight();
+Â Â Â goUpTurnLeft();
+Â Â Â beepersLeft();
+Â Â Â goUpTurnRight();
+Â Â Â Â Â Â beepersRight();
+}
+
+function goUpTurnRight() {
+Â Â Â turnRight();
+Â Â Â move();
+Â Â Â turnRight();
+}
+
+function goUpTurnLeft() {
+Â Â Â turnLeft();
+Â Â Â move();
+Â Â Â turnLeft();
+}
+
+function beepersRight() {
+Â Â Â putBeeper();
+Â Â Â move();
+Â Â Â move();
+Â Â Â putBeeper();
+Â Â Â move();
+Â Â Â move();
+Â Â Â putBeeper(); Â 
+}
+
+function beepersLeft() {
+Â Â Â move();
+Â Â Â putBeeper();
+Â Â Â move();
+Â Â Â move();
+Â Â Â putBeeper();
+Â Â Â move();
+}
