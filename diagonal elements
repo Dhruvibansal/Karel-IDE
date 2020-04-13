@@ -1,0 +1,21 @@
+function main(){
+  putBeeper();
+ 
+  
+  abc();
+  abc();
+  abc();
+  abc();
+  
+  
+}
+function abc(){
+   
+  move();turnLeft();
+  
+  move();
+   putBeeper();
+   
+  turnRight();
+  
+ }
